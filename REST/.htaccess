@@ -1,0 +1,5 @@
+# HTID:5640494: DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES BELOW
+php_value display_errors 1
+# DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES ABOVE HTID:5640494:
+RewriteEngine on
+RewriteRule ^((?!index\.php).+)$ /REST/index.php/$1 [QSA,L]
